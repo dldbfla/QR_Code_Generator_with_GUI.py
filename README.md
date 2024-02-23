@@ -22,3 +22,22 @@ tkinter: Used to generate the GUI. These are included by default in Python 3.x v
 These two libraries must be installed for this Python code to run properly. 
 
 If you need additional libraries, you can install them using the pip install [library_name] command. where [library_name] is the name of the library you want to install.
+
+## Here are some things to keep in mind while using this code
+
+Python version: This code is written to work with Python 3.x versions. Please note that it may not work properly on Python 2.x versions.
+
+
+Install the required libraries: The qrcode library is required, which can be installed using the pip install qrcode[pil] command. The tkinter library is also required, which is included by default in Python 3.x versions. If you don't have this library installed, you'll need to reinstall Python or install tkinter using the appropriate method.
+
+
+File save permissions: When saving a file, if you don't have write access to the path to save it, the file save may fail. In this case, you'll need to use a different path or set the appropriate permissions.
+
+
+Internet connection: The website URL is entered to generate the QR code. Therefore, it is important to enter the correct URL and the behavior may vary depending on your internet connection.
+
+
+UI language: The UI of the colorchoosercolor and filedialog.asksaveasfilename functions follows the language settings of the operating system. You cannot change the UI language directly in the code.
+
+
+Please keep these things in mind when using the code.
