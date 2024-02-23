@@ -11,7 +11,14 @@ This Python script lets the user select a website URL, QR code color, background
 ![스크린샷 2024-02-23 235015](https://github.com/dldbfla/QR_Code_Generator_with_GUI.py/assets/89433437/40f0f548-2b11-4d67-bb56-3e81d01db315)
 
 ## qrcode: Used to generate QR codes. To install this library, type the following in the terminal
-bash
+
+ ```
     pip install qrcode[pil]
+ ```
+
 tkinter: Used to generate the GUI. These are included by default in Python 3.x versions, so you don't need to install them separately.
-These two libraries must be installed for this Python code to run properly. If you need additional libraries, you can install them using the pip install [library_name] command. where [library_name] is the name of the library you want to install.
+
+
+These two libraries must be installed for this Python code to run properly. 
+
+If you need additional libraries, you can install them using the pip install [library_name] command. where [library_name] is the name of the library you want to install.
